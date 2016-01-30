@@ -93,6 +93,8 @@
      <Compile Include="Assets\_Scripts\Buoyancy.cs" />
      <Compile Include="Assets\_Scripts\KeyboardMovement.cs" />
      <Compile Include="Assets\_Scripts\LookAtCamera.cs" />
+     <Compile Include="Assets\_Scripts\SpawnEdge.cs" />
+     <Compile Include="Assets\_Scripts\Spin.cs" />
      <None Include="Assets\Rocks and Boulders 2\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Rocks and Boulders 2\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\Rocks and Boulders 2\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />

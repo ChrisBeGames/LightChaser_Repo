@@ -15,11 +15,7 @@ public class Brazier : MonoBehaviour {
 	}
 
 	void OnTriggerExit (Collider other) {
-		print ("Exit");
-		if (other.tag == "Ignitor") {
-			isLit = false;
-			particleSystem.enableEmission = false;
-		}
+
 	}
 
 	// Use this for initialization
@@ -29,12 +25,12 @@ public class Brazier : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-//		if (particleSystem) {
-//			if (isLit && !particleSystem.enableEmission) {
-//				OnTriggerEnter (GameObject.FindGameObjectWithTag ("Ignitor").GetComponent<Collider> ());
-//			} else if (!isLit && particleSystem.enableEmission) {
-//				particleSystem.enableEmission = false;
-//			}
-//		}
+		if (particleSystem) {
+			if (isLit && !particleSystem.enableEmission) {
+				OnTriggerEnter (GameObject.FindGameObjectWithTag ("Ignitor").GetComponent<Collider> ());
+			} else if (!isLit && particleSystem.enableEmission) {
+				particleSystem.enableEmission = false;
+			}
+		}
 	}
 }

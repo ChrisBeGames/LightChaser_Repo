@@ -1,9 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\LookAtCamera.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\Brazier.cs">
     <Files>
-      <File FileName="Assets\Standard Assets\Environment\Water\Water\Scripts\Water.cs" Line="134" Column="17" />
-      <File FileName="Assets\_Scripts\LookAtCamera.cs" Line="8" Column="64" />
+      <File FileName="Assets\_Scripts\Brazier.cs" Line="27" Column="18" />
+      <File FileName="Assets\_Scripts\LookAtCamera.cs" Line="4" Column="22" />
+      <File FileName="Assets\_Scripts\PixieMove.cs" Line="25" Column="12" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
